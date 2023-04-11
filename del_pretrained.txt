@@ -1,0 +1,6 @@
+cd /home/<username>/.cache/torch/checkpoints
+ls
+
+# Entering ls command will show the name of pretrained weights saved in torch cache look for facenet model such as 20180402-114759-vggface2.pt. Copy that name and paste its name in below command.
+
+sudo rm <facenet model>
